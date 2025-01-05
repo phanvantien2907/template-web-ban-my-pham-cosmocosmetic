@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="shortcut icon" href="//theme.hstatic.net/200000601761/1000967834/14/favicon.png?v=102"type="image/png" />
+    <title>SERUM VITAMIN C CHIẾT XUẤT VỎ CAM - Cosmo Vietnam | Cửa hàng Online Chính Hãng | Natural Cosmetic</title>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="p-1 mb-1 bg-black text-white text-center">
+            <p>Miễn phí free ship với đơn hàng đầu tiên khi mua hàng online</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Logo -->
+        <div class="d-flex justify-content-center w-100">
+            <img src="images/logo.jpg" width="200px" height="90px" class="d-block" alt="Logo">
+        </div>
+
+        <!-- icon đăng nhập x cart-->
+          <div class="container">
+            <div class="d-flex justify-content-end">
+                <div class="icon-dangnhap">
+                    <a href="Login.html" class="text-decoration-none">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                </div>
+                <!-- icon cart -->
+                <div class="icon-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light d-md-none">
+            <div class="container-fluid">
+
+                <!-- menu mobile -->
+                <button class="navbar-toggler mt-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <!-- Menu cho mobile và tablet -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link custom-color lead" href="Index.html">TRANG CHỦ</a>
+                        </li>
+                        <hr>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle custom-color" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">SẢN PHẨM</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <hr>
+                                <li><a class="dropdown-item custom-color" href="DuongDa.html">Dưỡng Da</a></li>
+                                <hr>
+                                <li><a class="dropdown-item custom-color" href="ChamSocCoThe.html">Chăm Sóc Cơ Thể</a>
+                                </li>
+                                <hr>
+                                <li><a class="dropdown-item custom-color " href="TrangDiem.html">Trang Điểm</a></li>
+                                <hr>
+                                <li><a class="dropdown-item custom-color" href="SanPham.html">Sản Phẩm Mới</a></li>
+                                <hr>
+                                <li><a class="dropdown-item custom-color" href="QuaTang.html">Quà Tặng</a></li>
+                                <h1></h1>
+                                <hr>
+                                <li><a class="dropdown-item custom-color" href="DealHot.html">Deals Hot</a></li>
+                            </ul>
+                            <hr>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link custom-color" href="BaiViet.html">BÀI VIẾT</a>
+                        </li>
+                        <hr>
+                        <li class="nav-item">
+                            <a class="nav-link custom-color" href="VeThuongHieu.html">VỀ THƯƠNG HIỆU</a>
+                        </li>
+                        <hr>
+                        <li class="nav-item">
+                            <a class="nav-link custom-color" href="VeThuongHieu.html">LIÊN HỆ VỚI CHÚNG TÔI QUA</a>
+                            <p class="mt-2 custom-color text-center"><strong>0707207990</strong></p>
+                            <p class="mt-2 custom-color text-center"><strong>cskh@cosmocosmetic.vn</strong></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Menu tìm kiếm trên điện thoại -->
+        <div class="menu-search d-block d-md-none">
+            <div class="row">
+                <div class="col-md-4 col-lg-3 position-relative">
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Tìm kiếm sản phẩm..">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="position-absolute top-50 end-0 translate-middle-y me-3"
+                        style="width: 24px; height: 24px;">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu dành cho PC -->
+        <div class="container mt-3 menu-pc-list d-none d-md-block">
+            <ul class="menu d-flex justify-content-center list-unstyled">
+                <li><a href="Index.html" class="d-block text-center mb-1 custom-color p-1 text-decoration-none">TRANG
+                        CHỦ</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle custom-color p-1 text-decoration-none" href="#"
+                        id="navbarDropdownPC" role="button" data-bs-toggle="dropdown" aria-expanded="false">SẢN PHẨM</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownPC">
+                        <li><a class="dropdown-item text-decoration-none custom-color" href="DuongDa.html">Dưỡng Da</a>
+                        </li>
+                        <li><a class="dropdown-item text-decoration-none custom-color" href="ChamSocCoThe.html">Chăm Sóc
+                                Cơ Thể</a></li>
+                        <li><a class="dropdown-item text-decoration-none custom-color" href="TrangDiem.html">Trang
+                                Điểm</a></li>
+                        <li><a class="dropdown-item text-decoration-none custom-color" href="SanPham.html">Sản Phẩm
+                                Mới</a></li>
+                        <li><a class="dropdown-item text-decoration-none custom-color" href="QuaTang.html">Quà Tặng</a>
+                        </li>
+                        <li><a class="dropdown-item text-decoration-none custom-color" href="DealHot.html">Deals Hot</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="BaiViet.html" class="d-block text-center custom-color p-1 text-decoration-none">BÀI
+                        VIẾT</a></li>
+                <li><a href="VeThuongHieu.html"
+                        class="d-block text-center mb-1 custom-color p-1 text-decoration-none">VỀ THƯƠNG HIỆU</a></li>
+            </ul>
+        </div>
+
+        <!--thanh menu trắng -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <ul class="navbar-nav d-flex flex-row">
+                    <li class="nav-item me-3">
+                        <a class="nav-link active text-truncate" aria-current="page" href="Index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-truncate" href="SanPham.html">Sản phẩm nổi bật</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-truncate custom-color" href="sp4.html"> KSERUM VITAMIN C CHIẾT XUẤT VỎ
+                            CAM
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- product-->
+        <div class="container">
+            <div class="row d-flex align-items-center custom-color">
+                <div class="col-lg-12 d-flex flex-column flex-lg-row">
+                    <!-- images -->
+                    <div class="col-12 col-lg-6">
+                        <img src="images/sp4.jpg" class="img-fluid d-flex mx-auto mt-3" alt="sản phẩm 4">
+                    </div>
+                    <!-- info product -->
+                    <div class="col-12 col-lg-6 order-3 order-lg-2 mt-4 ms-4 p-4">
+                        <h3>SERUM VITAMIN C CHIẾT XUẤT VỎ CAM</h3>
+                        <p>SKU: TNTCM1</p>
+                        <hr>
+                        <h5 class="d-block text-danger">780.000đ</h5>
+                        <hr>
+                        <div class="d-flex align-items-center">
+                            <div class="quantity-container me-3">
+                                <div class="input-group">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-left-minus btn btn-danger btn-number" data-type="minus" data-field="">
+                                            <i class="fa fa-minus"></i> <!-- Sử dụng Font Awesome -->
+                                        </button>
+                                    </span>
+                                    <input type="text" id="quantity" name="quantity" class="form-control input-number text-center" value="1" min="1" max="100">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                                            <i class="fa fa-plus"></i> <!-- Sử dụng Font Awesome -->
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                            <button id="add-to-cart" class="btn btn-primary h-100 ms-1 flex-grow-1" type="button">THÊM VÀO GIỎ</button>
+                        </div>
+
+                        <!-- info 1 -->
+                        <div class="d-flex align-items-center mt-3">
+                            <img src="images/ship.jpg" alt="ảnh ship" width="30px">
+                            <p class="ms-2">Cam kết 100% chính hãng</p>
+                        </div>
+                        <!-- info 2 -->
+                        <div class="d-flex align-items-center mt-1">
+                            <img src="images/ship1.jpg" alt="ảnh ship 1" width="30px">
+                            <p class="ms-2">Giao hàng dự kiến: <br>
+                                Thứ 2 - Thứ 7 từ 9h00 - 20h00</p>
+                        </div>
+                        <!-- info 3 -->
+                        <div class="d-flex align-items-center mt-1">
+                            <img src="images/ship3.jpg" alt="ảnh ship 1" width="30px">
+                            <p class="ms-2">Miễn phí ship toàn quốc với đơn hàng từ 500K</p>
+                        </div>
+                        <hr>
+                        <!-- content 1 -->
+                        <div>
+                            <h5 class="d-flex justify-content-between align-items-center">MÔ TẢ <i
+                                    class="bi bi-plus-lg toggle-icon ms-4" data-bs-toggle="collapse"
+                                    data-bs-target="#descriptionContent4"></i></h5>
+                            <hr>
+                            <div id="descriptionContent4" class="collapse">
+                                <h5>THÀNH PHẦN CHÍNH</h5>
+                                <p>Chiết xuất vỏ cam</p>
+                                <hr>
+                                <h5>THÍCH HỢP VỚI</h5>
+                                <p>Mọi loại da. Đặc biệt tốt cho da thâm mụn, không đều màu, thiếu độ căng mịn</p>
+                                <hr>
+                                <h5>DUNG TÍCH</h5>
+                                <p>30ml/ 1 FL.OZ</p>
+                                <hr>
+                                <h5>Công dụng</h5>
+                                <p> Chiết xuất vỏ cam chứa lượng vitamin C cao giúp làm mờ vết thâm mụn và làm giảm các
+                                    hắc tố trên da, bảo vệ và tăng cường sản xuất collagen, giúp làm sáng và đều màu da.
+                                </p>
+                                <p> Zinc PCA, Chondrus Crispus Powder cùng các hợp chất khác giúp điều tiết lượng dầu
+                                    trên da, hạn chế khả năng sinh sản vi khuẩn gây mụn và dưỡng ẩm cho da.</p>
+                                <hr>
+                                <h5>Cách sử dụng</h5>
+                                <p> Cách 1: Dùng toner để cân bằng da rồi mới nhỏ từ 3 – 4 giọt serum lên tay, thoa đều
+                                    lên mặt</p>
+                                <p> Cách 2: Dành cho làn da nhạy cảm và làn da lần đầu sử dụng vitamin C. Sau khi làm
+                                    sạch da và dùng toner, nhỏ vài giọt serum vào loại cream hay gel dưỡng rồi mới dùng,
+                                    để da quen dần với vitamin C. Đây cũng là cách bổ sung độ ẩm cho serum.</p>
+                                <p>*Lưu ý khi sử dụng:</p>
+                                <p> Với người lần đầu sử dụng sản phẩm có vitamin C, có thể xuất hiện hiện tượng da ngứa
+                                    râm ran nhẹ. Đây là quá trình bình thường do sự khác biệt về mức độ pH trong da và
+                                    vitamin C. Nên sử dụng cách ngày để làn da quen dần.</p>
+                                <p> Thời gian dùng vitamin C nên tốt nhất là buổi tối. Nếu dùng vào ban ngày bắt buộc
+                                    phải dùng kèm kem chống nắng trong mọi trường hợp tiếp xúc với ánh nắng hoặc gần
+                                    nắng.</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- content 2 -->
+                        <div>
+                            <h5 class="d-flex justify-content-between align-items-center">CHÍNH SÁCH ĐỔI TRẢ <i
+                                    class="bi bi-plus-lg toggle-icon ms-5" data-bs-toggle="collapse"
+                                    data-bs-target="#descriptionContent5"></i></h5>
+
+                            <div id="descriptionContent5" class="collapse">
+                                <p>1. Điều kiện đổi trả</p>
+                                <p>Quý Khách hàng cần kiểm tra tình trạng hàng hóa và có thể đổi hàng/ trả lại hàng ngay
+                                    tại
+                                    thời điểm giao/nhận hàng trong những trường hợp sau:</p>
+                                <p>Hàng không đúng chủng loại, mẫu mã trong đơn hàng đã đặt hoặc như trên website tại
+                                    thời
+                                    điểm đặt hàng.</p>
+                                <p>Không đủ số lượng, không đủ bộ như trong đơn hàng.</p>
+                                <p>Tình trạng bên ngoài bị ảnh hưởng như rách bao bì, bong tróc, bể vỡ…</p>
+                                <p>Khách hàng có trách nhiệm trình giấy tờ liên quan chứng minh sự thiếu sót trên để
+                                    hoàn
+                                    thành việc hoàn trả/đổi trả hàng hóa. </p>
+                                <p class="mt-3">2. Quy định về thời gian thông báo và gửi sản phẩm đổi trả</p>
+                                <p>Thời gian thông báo đổi trả: trong vòng 48h kể từ khi nhận sản phẩm đối với trường
+                                    hợp
+                                    sản phẩm thiếu phụ kiện, quà tặng hoặc bể vỡ.</p>
+                                <p>Thời gian gửi chuyển trả sản phẩm: trong vòng 14 ngày kể từ khi nhận sản phẩm.</p>
+                                <p>Địa điểm đổi trả sản phẩm: Khách hàng có thể mang hàng trực tiếp đến văn phòng/ cửa
+                                    hàng
+                                    của chúng tôi hoặc chuyển qua đường bưu điện.
+                                    Trong trường hợp Quý Khách hàng có ý kiến đóng góp/khiếu nại liên quan đến chất
+                                    lượng
+                                    sản phẩm, Quý Khách hàng vui lòng liên hệ đường dây chăm sóc khách hàng của chúng
+                                    tôi.
+                                </p>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <!-- content 3 -->
+                        <div>
+                            <h5 class="d-flex justify-content-between align-items-center">CHÍNH SÁCH BẢO MẬT <i
+                                    class="bi bi-plus-lg toggle-icon ms-5" data-bs-toggle="collapse"
+                                    data-bs-target="#descriptionContent6"></i></h5>
+                            <div id="descriptionContent6" class="collapse">
+                                <h5>1. Mục đích và phạm vi thu thập thông tin</h5>
+                                <p>Cosmocosmetic.vn không bán, chia sẻ hay trao đổi thông tin cá nhân của khách hàng thu
+                                    thập trên trang web cho một bên thứ ba nào khác.</p>
+                                <p>Thông tin cá nhân thu thập được sẽ chỉ được sử dụng trong nội bộ công ty.</p>
+                                <p>Khi bạn liên hệ đăng ký dịch vụ, thông tin cá nhân mà Cosmocosmetic.vn thu thập bao
+                                    gồm:
+                                </p>
+                                <p>Họ và tên</p>
+                                <p>Địa chỉ</p>
+                                <p>Điện thoại</p>
+                                <p>Email</p>
+                                <p>Ngoài thông tin cá nhân là các thông tin về dịch vụ</p>
+                                <p>Tên sản phẩm</p>
+                                <p>Số lượng</p>
+                                <p>Thời gian giao nhận sản phẩm</p>
+                                <h5>2. Phạm vi sử dụng thông tin</h5>
+                                <p>Thông tin cá nhân thu thập được sẽ chỉ được Cosmocosmetic.vn sử dụng trong nội bộ
+                                    công ty
+                                    và cho một hoặc tất cả các mục đích sau đây:</p>
+                                <p>- Hỗ trợ khách hàng</p>
+                                <p>- Cung cấp thông tin liên quan đến dịch vụ</p>
+                                <p>- Xử lý đơn đặt hàng và cung cấp dịch vụ và thông tin qua trang web của chúng tôi
+                                    theo
+                                    yêu cầu của bạn</p>
+                                <p>- Chúng tôi có thể sẽ gửi thông tin sản phẩm, dịch vụ mới, thông tin về các sự kiện
+                                    sắp
+                                    tới hoặc thông tin tuyển dụng nếu quý khách đăng kí nhận email thông báo.</p>
+                                <p>- Ngoài ra, chúng tôi sẽ sử dụng thông tin bạn cung cấp để hỗ trợ quản lý tài khoản
+                                    khách
+                                    hàng; xác nhận và thực hiện các giao dịch tài chính liên quan đến các khoản thanh
+                                    toán
+                                    trực tuyến của bạn;</p>
+                                <h5>3. Thời gian lưu trữ thông tin</h5>
+                                <p>Đối với thông tin cá nhân, Cosmocosmetic.vn chỉ xóa đi dữ liệu này nếu khách hàng có
+                                    yêu
+                                    cầu, khách hàng yêu cầu gửi mail về admin@cosmocosmetic.vn</p>
+                                <h5>4. Những người hoặc tổ chức có thể được tiếp cận với thông tin cá nhân</h5>
+                                <p>Đối tượng được tiếp cận với thông tin cá nhân của khách hàng thuộc một trong những
+                                    trường
+                                    hợp sau:</p>
+                                <p>- CÔNG TY TNHH MTV COSMO COSMETIC</p>
+                                <p>- Các đối tác có ký hợp động thực hiện 1 phần dịch vụ do CÔNG TY TNHH MTV COSMO
+                                    COSMETIC.
+                                    Các đối tác này sẽ nhận được những thông tin theo thỏa thuận hợp đồng (có thể 1phần
+                                    hoặc
+                                    toàn bộ thông tin tuy theo điều khoản hợp đồng) để tiến hành hỗ trợ người dùng sử
+                                    dụng
+                                    dịch vụ do Công ty cung cấp.</p>
+                                <h5>5. Địa chỉ của đơn vị thu thập và quản lý thông tin cá nhân Công ty TNHH MTV Cosmo
+                                    Cosmetic</h5>
+                                <p>Địa chỉ: 72 Huỳnh Tịnh Của, P. Phước Trung, Tp. Bà Rịa, Bà Rịa - Vũng Tàu</p>
+                                <p>Điện thoại: 0962246096</p>
+                                <p>Website: Cosmocosmetic.vn</p>
+                                <h5>6. Phương tiện và công cụ để người dùng tiếp cận và chỉnh sửa dữ liệu cá nhân của
+                                    mình
+                                </h5>
+                                <p>Cosmocosmetic.vn không thu thập thông tin khách hàng qua trang web, thông tin cá nhân
+                                    khách hàng được thực hiện thu thập qua email liên hệ đặt mua sản phẩm, dịch vụ gửi
+                                    về
+                                    hộp mail của chúng tôi: Admin@cosmocosmetic.vn hoặc số điện thoại liên hệ đặt mua
+                                    sản
+                                    phẩm gọi về 0962246096</p>
+                                <p>Bạn có thể liên hệ địa chỉ email cùng số điện thoại trên để yêu cầu Cosmocosmetic.vn
+                                    chỉnh sửa dữ liệu cá nhân của mình.</p>
+                                <h5>7. Cơ chế tiếp nhận và giải quyết khiếu nại của người tiêu dùng liên quan đến việc
+                                    thông
+                                    tin cá nhân bị sử dụng sai mục đích hoặc phạm vi đã thông báo.</h5>
+                                <p>Tại Cosmocosmetic.vn , việc bảo vệ thông tin cá nhân của bạn là rất quan trọng, bạn
+                                    được
+                                    đảm bảo rằng thông tin cung cấp cho chúng tôi sẽ được mật</p>
+                                <p>Cosmocosmetic.vn cam kết không
+                                    chia sẻ, bán hoặc cho thuê thông tin cá nhân của bạn cho bất kỳ người nào khác.
+                                    Cosmocosmetic.vn cam kết chỉ sử dụng các thông tin của bạn vào các trường hợp sau:
+                                </p>
+                                <p>- Nâng cao chất lượng dịch vụ dành cho khách hàng</p>
+                                <p>- Giải quyết các tranh chấp, khiếu nại</p>
+                                <p>- Khi cơ quan pháp luật có yêu cầu. </p>
+                                <p>Cosmocosmetic.vn hiểu rằng quyền lợi của bạn trong việc bảo vệ thông tin cá nhân cũng
+                                    chính là trách nhiệm của chúng tôi nên trong bất kỳ trường hợp có thắc mắc, góp ý
+                                    nào
+                                    liên quan đến chính sách bảo mật của Cosmocosmetic.vn , và liên quan đến việc thông
+                                    tin
+                                    cá nhân bị sử dụng sai mục đích hoặc phạm vi đã thông báo vui lòng liên hệ qua số
+                                    hotline 0962246096 hoặc email:</p>
+                                <p>admin@cosmocosmetic.vn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="provide text-center custom-color mt-3">
+                <h3>Sản phẩm liên quan</h3>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 mt-3">
+                        <div class="product-item" onclick="redirectTo('sp1.html')">
+                            <img src="images/sp1.jpg" class="img-fluid d-flex mx-auto" alt="sản phẩm 1">
+                            <li class="custom-color text-decoration-none d-block text-center">TONER TINH DẦU TRÀM TRÀ
+                            </li>
+                            <strong class="d-block text-center">380.000 <sup>đ</sup></strong>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 mt-3">
+                        <div class="product-item" onclick="redirectTo('sp2.html')">
+                            <img src="images/sp2.jpg" class="img-fluid d-flex mx-auto" alt="sản phẩm 2">
+                            <li class="custom-color text-decoration-none d-block text-center">RỬA MẶT NGỪA MỤN TINH CHẤT
+                                DIẾP CÁ</li>
+                            <strong class="d-block text-center">400.000 <sup>đ</sup></strong>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 mt-3">
+                        <div class="product-item" onclick="redirectTo('sp3.html')">
+                            <img src="images/sp3.jpg" class="img-fluid d-flex mx-auto" alt="sản phẩm 3">
+                            <li class="custom-color text-decoration-none d-block text-center">KEM DƯỠNG ẨM CHIẾT XUẤT
+                                HOA CẨM QUỲ</li>
+                            <strong class="d-block text-center">520.000 <sup>đ</sup></strong>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 mt-3">
+                        <div class="product-item" onclick="redirectTo('sp4.html')"> 
+                            <img src="images/sp4.jpg" class="img-fluid d-flex mx-auto" alt="sản phẩm 4">
+                            <li class="custom-color text-decoration-none d-block text-center">SERUM VITAMIN C CHIẾT XUẤT
+                                VỎ CAM</li>
+                            <strong class="d-block text-center">380.000 <sup>đ</sup></strong>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 mt-3">
+                        <div class="product-item" onclick="redirectTo('sp5.html')">
+                            <img src="images/sp5.jpg" class="img-fluid d-flex mx-auto" alt="sản phẩm 5">
+                            <li class="custom-color text-decoration-none d-block text-center">EM CẤP ẨM CHIẾT XUẤT XƯƠNG
+                                RỒNG</li>
+                            <strong class="d-block text-center">780.000 <sup>đ</sup></strong>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 mt-3">
+                        <div class="product-item" onclick="redirectTo('sp6.html')">
+                            <img src="images/sp6.jpg" class="img-fluid d-flex mx-auto" alt="sản phẩm 6">
+                            <li class="custom-color text-decoration-none d-block text-center">TONER TINH DẦU TRÀM TRÀ
+                            </li>
+                            <strong class="d-block text-center">880.000 <sup>đ</sup></strong>
+                        </div>
+                    </div>
+
+                    <div class="provide text-center custom-color mt-3">
+                        <h3>Sản phẩm đã xem</h3>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 mt-3">
+                                <div class="product-item">
+                                    <img src="images/sp1.jpg" class="img-fluid d-flex mx-auto" alt="sản phẩm 1">
+                                    <li class="custom-color text-decoration-none d-block text-center">TONER TINH DẦU
+                                        TRÀM
+                                        TRÀ</li>
+                                    <strong class="d-block text-center">580.000 <sup>đ</sup></strong>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 mt-3">
+                                <div class="product-item">
+                                    <img src="images/sp2.jpg" class="img-fluid d-flex mx-auto" alt="sản phẩm 2">
+                                    <li class="custom-color text-decoration-none d-block text-center">KEM DƯỠNG ẨM CHIẾT
+                                        XUẤT HOA CẨM QUỲ
+                                    </li>
+                                    <strong class="d-block text-center">520.000 <sup>đ</sup></strong>
+                                </div>
+                            </div>
+                        </div>
+                        
+    </main>
+    <hr>
+   <!-- phần chân-->
+   <Footer>
+    <div class="container text-md-left p-0 d-none d-md-block">
+        <div class="row">
+             <!-- content 1 -->
+            <div class="col-12 col-md-6 col-lg-3 mt-3">
+                <h4 class="custom-color mb-2"><strong>Sản xuất tại Công ty TNHH MTV COSMO COSMETIC</strong></h4>
+                <p class="custom-color">GPKD số: 3502470607 do Sở KH và ĐT Tỉnh Bà Rịa - Vũng Tàu cấp ngày
+                    24/02/2022<br>
+                    Địa chỉ: 72 Huỳnh Tịnh Của, P. Phước Trung, Tp. Bà Rịa, Bà Rịa - Vũng Tàu</p>
+                    <!-- icon mạng xã hội-->
+                    <div class="wrapper">
+                        <div class="icon facebook"><a href="https://www.facebook.com/cosmocosmetic.vn"></a>
+                            <div class="tooltip">Facebook</div>
+                            <span><i class="fa-brands fa-facebook"></i></span>
+                        </div>
+                        <div class="icon youtube">
+                            <div class="tooltip">Youtube</div>
+                            <span><i class="fa-brands fa-youtube"></i></span>
+                        </div>
+                        <div class="icon pinterest">
+                            <div class="tooltip">Pinterest</div>
+                            <span><i class="fa-brands fa-pinterest"></i></span>
+                        </div>
+                        <div class="icon twitter">
+                            <div class="tooltip">Twitter</div>
+                            <span><i class="fa-brands fa-twitter"></i></i></span>
+                        </div>
+                        <div class="icon instagram">
+                            <div class="tooltip">Instagram</div>
+                            <span><i class="fa-brands fa-instagram"></i></span>
+                        </div>
+                        
+                    </div>
+            </div>
+
+            <!-- content 2 -->
+            <div class="content-2 col-12 col-md-6 col-lg-3 mt-3 custom-color">
+                <h4><strong>Liên Kết</strong></h4>
+                <p><i class="bi bi-arrow-right"></i> Tim Kiếm</p>
+                <p><i class="bi bi-arrow-right"></i> Chính sách đổi trả</p>
+                <p><i class="bi bi-arrow-right"></i> Chính sách bảo mật</p>
+                <p><i class="bi bi-arrow-right"></i> Chính sách thanh toán</p>
+                <p><i class="bi bi-arrow-right"></i> Chính sách vận chuyển và giao nhận</p>
+                <p><i class="bi bi-arrow-right"></i> Chính sách xử lý khiếu nại</p>
+                <p><i class="bi bi-arrow-right"></i> Chính sách kiểm hàng</p>
+            </div>
+            
+            <!-- content 3 -->
+            <div class="content-3 col-12 col-md-6 col-lg-3 mt-3 custom-color">
+                <h4 class="custom-color"><strong>Thông tin liên hệ</strong></h4>
+                <div class="d-flex flex-column">
+                    <p class="d-flex align-items-center"><i class="bi bi-geo-alt-fill text-warning me-2"></i> Tầng 10 Tòa Nhà Soho Residence số 100 Cô Giang, P. Cô Giang, Q. 1, TP. HCM</p>
+                    <p class="d-flex align-items-center"><i class="bi bi-telephone-fill text-warning me-2"></i><span>0707207990</span></p>
+                    <p class="d-flex align-items-center"><i class="bi bi-envelope-fill text-warning me-2"></i><span>cskh@cosmocosmetic.vn</span></p>
+            </div>
+            </div>
+            
+
+            <!-- content 4 -->
+            <div class="content-4 col-12 col-md-6 col-lg-3 mt-3 custom-color">
+                <h4 class="custom-color"><strong>Fanpage</strong></h4>
+                <img src="images/fanpage.jpg" width="350px" height="200px" alt="Fanpage" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    
+</Footer>
+        <!-- menu mobile -->
+        <div class="container mt-5 d-block d-md-none text-center">
+            <p class="mobile-menu btn text-white text-center text" data-bs-toggle="collapse"
+                data-bs-target="#mobileNavbar" aria-controls="mobileNavbar" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Thông tin khác <i class="bi bi-arrow-down"></i> 
+            </p>
+            <div class="collapse" id="mobileNavbar">
+                <ul class="list-unstyled custom-color">
+                    <li>
+                        <p class="text-decoration-none">SẢN XUẤT TẠI CÔNG TY TNHH MTV COSMO COSMETIC</p>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="text-decoration-none">LIÊN KẾT</p>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="text-decoration-none">THÔNG TIN LIÊN HỆ</p>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="text-decoration-none">FANPAGE</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+</body>
+
+</html>
